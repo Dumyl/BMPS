@@ -1,0 +1,731 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* = = = = = = header = = = = = =  */
+.main-header {
+    height: 100px;
+    overflow: hidden;
+}
+
+.main-header-1 {
+    position: absolute;
+    margin-left: 40px;
+    width: 100px;
+    height: 90px;
+    margin-top: 2px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+    position: absolute;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 40px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(42, 42, 238);
+    -webkit-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+.checkbtm{
+    float: right;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+/* = = = = = = sticky nav = = = = = =  */
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+    display: block;
+    box-shadow: 0 2px 2px #555;
+}
+
+
+/* = = = = = = end sticky = = = = = =  */
+
+.header-2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
+        url(../image/6.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../image/6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../image/6.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.header-4 h2 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 20px 200px;
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+
+.header-4 h2 span {
+    color: rgb(42, 42, 238);
+}
+
+.header-5 h4 {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.header-6 {
+    text-align: center;
+}
+
+.header-6 .plan-srch {
+    margin-right: 12px;
+    width: 700px;
+    height: 50px;
+    padding-left: 60px;
+    background: #fff url(../image/search.32f505507fd5821f4208.png) no-repeat 17px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.header-6 .btn-srch {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(42, 42, 238);
+    border-radius: 100px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.header-6 .btn-srch:hover {
+    background-color: rgb(8, 8, 122);
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+/* = = = = = = Course = = = = = =  */
+.course {
+    width: 100%;
+    height: 100vh;
+}
+
+.course-1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.course-1 .course-h3 {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.course-1 .course-h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.course-1 .course-p {
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+}
+.course-2{
+    height: 370px;
+    border: 1px solid #000;
+    background-color: rgb(219, 214, 214);
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    -webkit-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+            transform: scale(1.10);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.card img:hover{
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+}
+.card-h3{
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-p{
+    padding-left: 20px;
+    font-size: 15px;
+    font-size: 100;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.card-a{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.card-a:hover{
+    background-color: rgb(42, 42, 238);
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+/* = = = = = = book = = = = = =  */
+
+.book{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 214, 214);
+    overflow: hidden;
+}
+.book-1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.book-1 .book-h3 {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.book-1 .book-h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.book-2{
+    border: 1px solid #000;
+    height: 220px;
+    background-image: url(../image/book-bg.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.book-3{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.book-3-img{
+    width: 95%;
+    height: 100%;
+    padding-top: 90px;
+    padding-left: 5px;
+}
+.book-4{
+    float: right;
+    width: 60%;
+    height: 100%;
+    padding-top: 60px;
+}
+.book-4-h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.book-4-p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 5px;
+    line-height: 18px;
+}
+.book-5-icon{
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 100;
+    float: left;
+    color: rgb(248, 213, 11);
+    padding-left: 1px;
+}
+.book-5-a{
+    margin-top: 10px;
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 7px;
+    padding: 2px 7px;
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    border: 1px solid black;
+    background-color: rgb(42, 42, 238);
+}
+.book-5-a:hover{
+    color: #000;
+    -webkit-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+/* = = = = = = End book = = = = = =  */
+
+/* = = = = = = Video = = = = = =  */
+
+.main-video{
+    width: 100%;
+    height: 770px;
+    overflow: hidden;
+}
+.video-1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.video-1 .video-h3 {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.video-1 .video-h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.video-1 .video-p {
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+}
+.video-2{
+    width: 100%;
+    height: 270px;
+}
+.video-2-h3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.video-2 embed{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
+.video-2-a{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(42, 42, 238);
+}
+.video-2-a:hover{
+    color: #000;
+    -webkit-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+/* = = = = = = End Video = = = = = =  */
+
+/* = = = = = =  Teams = = = = = =  */
+
+.team{
+    width: 100%;
+    height: 100vh;
+}
+.team-1{
+    text-align: center;
+    padding-top: 30px;
+}
+.team-1-h4{
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.team-1-h2{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.team-1-p {
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+}
+.team-2{
+    background-image: url(../image/16.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 420px;
+}
+.team-3-img{
+    width: 93%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 9px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.team-3-h5{
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.team-3-p{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+}
+.team-4{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(248, 215, 25);
+    margin-bottom: 10px;
+}
+.team-3-p-1{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+/* = = = = = = End Teams = = = = = =  */
+
+/* = = = = = =  About = = = = = =  */
+
+.about{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.about-1{
+    padding-top: 70px;
+}
+.about-2{
+    width: 100%;
+    height: 500px;
+}
+.about-3{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    float: left;
+}
+.about-3-img{
+    width: 100%;
+    height: 100%;
+}
+.about-4{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(219, 214, 214);
+    float: right;
+}
+.about-4-h2{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.about-4-p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 22px;
+    word-spacing: 1px;
+    padding: 0 30px;
+}
+.about-5{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.about-5 a{
+    text-decoration: none;
+    color: #000;
+}
+.about-5-icon{
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 100;
+}
+.about-5 a:hover{
+    color: rgb(76, 76, 214);
+    -webkit-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+/* = = = = = = End About = = = = = =  */
+
+/* = = = = = = Contact = = = = = =  */
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 214, 214);
+    overflow: hidden;
+}
+.contact-1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.contact-1 .contact-h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.main-contact{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+.main-contact-input{
+    float: right;
+    margin-right: 10px;
+}
+.main-contact-input-1{
+    float: left;
+    margin-left: 10px;
+}
+.main-contact-input,
+.main-contact-input-1{
+    width: 252px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.contact-2{
+    text-align: center;
+    margin-right: 55px;
+    
+}
+.contact-2 .contact-2-input{
+    width: 539px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+.contact-3{
+    text-align: center;
+}
+.contact-3-msg{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+.contact-btn{
+    cursor: pointer;
+    background-color: #3a8bcd;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+    margin-left: 80px;
+}
+.contact-btn:hover{
+    color: #000;
+    -webkit-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+*:focus{
+    outline: none;
+}
+
+/* = = = = = = End Contact = = = = = =  */
+
+/* = = = = = = Footer = = = = = =  */
+.main-footer{
+    width: 100%;
+    height: 380px;
+    color: #000;
+    overflow: hidden;
+}
+.footer-1{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 300px;
+}
+.footer-2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.footer-2-icon{
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer-para{
+    margin-bottom: 30px;
+}
+.footer-3 a{
+    color: #000;
+}
+.footer-3 .footer-icon{
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px;
+}
+.footer-icon:hover{
+    color: #1575e2;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.footer-h3{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-para-1{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.footer-para-1 a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-para-1 a:hover{
+    color: #1575e2;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.footer-4-p{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+/* = = = = = = End Footer = = = = = =  */
+
+/* = = = = = =  animate = = = = = =  */
+.js--wp-1{
+    opacity: 0;
+}
+.js--wp-1.animated{
+    opacity: 1;
+}
+/*rgb(42, 42, 238) */
